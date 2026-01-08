@@ -1,0 +1,4 @@
+# Ignore the cloned repos (they have their own repos)
+jerusalem-youth-backoffice-client/
+jerusalem-youth-backoffice-server/
+tiktok-att-api/
