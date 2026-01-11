@@ -41,7 +41,7 @@ cd jerusalem-youth-backoffice-client && npm install && cd ..
 > ⚠️ **Make sure Docker Desktop app is open first!**
 
 ```bash
-docker compose -f docker-comopse.yml up -d
+docker compose -f docker-compose.yml up -d
 ```
 > This starts 3 services in the background:
 > - **MongoDB** (database) on port 27017
@@ -77,7 +77,7 @@ npx vite --host --port 2000
 1. Press `Ctrl+C` in the server and client terminals
 2. Stop Docker services:
 ```bash
-docker compose -f docker-comopse.yml down
+docker compose -f docker-compose.yml down
 ```
 > Add `-v` at the end to also delete the database data
 
